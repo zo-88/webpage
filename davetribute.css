@@ -19,7 +19,7 @@ img{
     padding:5px;
 }
 .about a { 
-    color:black;
+    color:white;
     text-align: center;
     border-bottom:1px dotted grey;
    
@@ -35,6 +35,31 @@ img{
 .title h1 {
  font-weight:100;
  font-size:2.5em;
+}
+.title img{
+    height:auto;
+
+}
+.about{
+    background-color:black;
+    margin:0 10px;
+    color:white;
+    /* text-align: center; */
+}
+
+
+.about img{
+    height:500px;
+    width:60%;
+    float:right;
+   padding:5px;
+    
+}
+.para-item, .about h2{
+    padding:20px;
+    color:white;
+  
+   
 }
 
 table,th,td{
@@ -54,6 +79,37 @@ td{
     background-color:lightgray;
 
 }
+.special-image{
+    height:400px;
+    width:40%;
+    /* float:right; */
+}
+
+.flexbox-container{
+background-color:lightblue;
+margin:10px;
+/* width:40%; */
+height:300px;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-around ;
+align-items: center;
+}
+/* parent set to display flex -  */
+
+.container-item{
+    background-color:red;
+    color:white;
+    font-size:25px;
+    text-align:center;
+    width:70px;
+    line-height:50px;
+    margin:10px;
+
+}
+
+
 
 
 
