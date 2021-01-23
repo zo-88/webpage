@@ -3,21 +3,39 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 40% 30%; */
+    background-image:url("https://i.pinimg.com/originals/b6/dc/fc/b6dcfca50f8c750941d014ea494b6256.jpg");
+
    background:linear-gradient(to bottom,#adb5bd,#f8f9fa,#dee2e6,#495057);
    font-family:"montserrat",sans-serif;
+   );
  
 }
 h1,h2,nav{
-    font-family: 'assistant',sans-serif;
-}
-img{
-    /* width: 50vw; */
+    font-family: 'Salt Rock',cursive;
+    text-shadow: 1px 1px 1px rgb(146, 146, 146);
 }
 * a{
     text-decoration: none;
     color:black;
     padding:5px;
 }
+.title h1{
+    font-family:'Salt Rock', cursive;
+    text-shadow: 2px 3px 1px rgba(255, 255, 255, 0.781);
+    font-size:3.5rem;
+    font-weight:100;
+    
+}
+
+img{
+    /* width: 50vw; */
+}
+
+.title img{
+    height:auto;
+
+}
+
 .about a { 
     color:white;
     text-align: center;
@@ -32,32 +50,31 @@ img{
     color:rgba(0, 0, 0, 0.719);
     padding:5px 10px;
 }
-.title h1 {
- font-weight:100;
- font-size:2.5em;
-}
-.title img{
-    height:auto;
 
-}
 .about{
-    background-color:black;
-    margin:0 10px;
-    color:white;
+    
+   
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
     /* text-align: center; */
 }
-
-
+/* .contain{
+    object-fit: cover;
+}
+.about-image-box{
+    max-width:50%;
+} */
 .about img{
-    height:500px;
-    width:60%;
-    float:right;
-   padding:5px;
+    height:100%;
+    width:100%;
+  
+    
     
 }
 .para-item, .about h2{
-    padding:20px;
-    color:white;
+   
+    
   
    
 }
@@ -81,10 +98,21 @@ td{
 }
 .special-image{
     height:400px;
-    width:40%;
+    width:100%;
     /* float:right; */
 }
+.special-image-2{
+    width:30%;
+    height:50px;
+}
 
+.standup-specials{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height:700px;
+    background-color:white;
+}
 .flexbox-container{
 background-color:lightblue;
 margin:10px;
@@ -108,7 +136,30 @@ align-items: center;
     margin:10px;
 
 }
-
+.container-item:nth-child(1){
+    width:100px;
+    flex-grow:1;
+    flex-shrink:;
+    flex-basis: 100px;
+    
+}
+.container-item:nth-child(2){
+  flex-grow:1;
+ ;
+}
+.container-item:nth-child(3){
+    width:500px;
+    flex-grow:5;
+    flex-basis: 100px;
+}
+.container-item:nth-child(4){
+    width:60px;
+    flex-basis:100px;
+}
+.container-item:nth-child(5){
+  height:200px;
+  flex-basis: 100px;
+}
 
 
 
