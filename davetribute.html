@@ -4,82 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="davetribute.css">
     <title>Dave Chappelle Tribute Page</title>
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <nav>
-            <a href="#about">About</a>
-            <a href="#awards">Awards</a>
+            <h1 class="nav-title nav-item ">Dave Chappelle</h1>
+            <a class="nav-item" href="#about">About</a>
+            <a class="nav-item" href="#awards">Awards</a>
+            <a class="nav-item" href="#specials">Specials</a>
         </nav>
 
-    </header>
+    </header> -->
     <main>
-        <div class="title">
-            <h1>Dave Chappelle</h1>
-            <!-- <img src="data:image/jpeg;base64,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"
-                alt="Dave Chappelle silhouette"> -->
-            <!-- <img src="https://i.pinimg.com/originals/b6/dc/fc/b6dcfca50f8c750941d014ea494b6256.jpg"> -->
+
+        <div class="title-container">
+            <div class="title-item title-heading">
+                <h2>Dave Chappelle</h2>
+                <h3>Dave Chappelle</h3>
+                <h1>Dave Chappelle</h1>
+                <div class="nav">
+
+                    <a class="nav-item" href="#about">About</a>
+                    <a class="nav-item" href="#awards">Awards</a>
+                    <a class="nav-item" href="#specials">Specials</a>
+
+                </div>
+
+
+
+
+            </div>
+
+            <div class="title-item">
+                <img src="https://i.pinimg.com/originals/b6/dc/fc/b6dcfca50f8c750941d014ea494b6256.jpg"
+                    alt="Dave Chappelle silhouette">
+            </div>
 
         </div>
-        <div class="about">
 
-            <div class="about-image-box"><img class="about-image contain"
+
+        <div id="about" class="about-container">
+            <div class="about-image-box"><img class="about-image"
                     src="https://i.pinimg.com/originals/0d/2a/44/0d2a44ce8e2c3cdba8ca829cbf359989.png">
             </div>
-            <!-- <img src="data:image/jpeg;base64,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"
-                alt="black and white picture of Dave Chappelle"> -->
-            <h2 class="about-heading">About</h2>
-            <p class="para-item">David Khari Webber Chappelle (born August 24, 1973) is an American stand-up comedian,
-                actor, writer
-                and producer. With his incisive observations, he has been described as "poetically unfiltered and
-                sociopolitically introspective, with an ability to illuminate and interrogate agonizing and poignant
-                topics." Chappelle is the recipient of numerous accolades, including four Emmy Awards and three Grammy
-                Awards as well as the Mark Twain Prize. He is known for his satirical comedy sketch series Chappelle's
-                Show
-                (2003–2006). The series, co-written with Neal Brennan, ran until Chappelle quit the show in the middle
-                of
-                production of the third season. After leaving the show, Chappelle returned to performing stand-up comedy
-                across the U.S. By 2006, Chappelle was called the "comic genius of America" by Esquire and, in 2013,
-                "the best" by a Billboard writer. In 2017, Rolling Stone ranked him No. 9 in their "50 Best Stand Up
-                Comics of All Time."
-            </p>
-            <p class="para-item">
-                Chappelle has appeared in several films, including Mel Brooks's Robin Hood: Men in Tights (1993), The
-                Nutty
-                Professor (1996), Con Air (1997), You've Got Mail (1998), Blue Streak (1999), Undercover Brother (2002),
-                Chi-Raq (2015), and A Star Is Born (2018). His first lead role was in the 1998 comedy film Half Baked,
-                which
-                he co-wrote with Neal Brennan. Chappelle also starred in the ABC comedy series Buddies (1996).
-            </p>
-            <p class="para-item">
-                In 2016, he signed a $20 million-per-release comedy-special deal with Netflix and, as of 2019, he has
-                released five standup specials under the deal.
-            </p>
-            <p class="para-item">
-                Chappelle received his first Emmy Award in 2017 for his guest appearance on Saturday Night Live. In
-                2018,
-                he received a Grammy Award for his Netflix-produced comedy album The Age of Spin & Deep in the Heart of
-                Texas. Equanimity, another Netflix special featuring Chapelle, was nominated in 2018 for three Emmys and
-                received the award for Outstanding Variety Special (Pre-Recorded). In 2019, Chappelle was selected to
-                receive the Mark Twain Prize for American Humor, which is presented by the Kennedy Center as America's
-                highest comedy honor. In 2020, Sticks & Stones earned Chappelle his third consecutive Grammy Award for
-                Best Comedy Album.</p>
-            <p class="para-item">Learn more about <a href="https://en.wikipedia.org/wiki/Dave_Chappelle" target="_blank"
-                    title="Go to Wiki">Dave
-                    Chappelle</a></p>
+            <div class="about-content">
+                <h2 class="about-heading">About</h2>
+                <p class="about-item">David Khari Webber Chappelle (born August 24, 1973) is an American stand-up
+                    comedian,
+                    actor, writer
+                    and producer. With his incisive observations, he has been described as "poetically unfiltered and
+                    sociopolitically introspective, with an ability to illuminate and interrogate agonizing and poignant
+                    topics." Chappelle is the recipient of numerous accolades, including four Emmy Awards and three
+                    Grammy
+                    Awards as well as the Mark Twain Prize. He is known for his satirical comedy sketch series
+                    Chappelle's
+                    Show
+                    (2003–2006). The series, co-written with Neal Brennan, ran until Chappelle quit the show in the
+                    middle
+                    of
+                    production of the third season. After leaving the show, Chappelle returned to performing stand-up
+                    comedy
+                    across the U.S. By 2006, Chappelle was called the "comic genius of America" by Esquire and, in 2013,
+                    "the best" by a Billboard writer. In 2017, Rolling Stone ranked him No. 9 in their "50 Best Stand Up
+                    Comics of All Time."
+                </p>
+                <p class="about-item">Learn more about <a href="https://en.wikipedia.org/wiki/Dave_Chappelle"
+                        target="_blank" title="Go to Wiki">Dave
+                        Chappelle</a></p>
+            </div>
+
 
         </div>
 
-        <div id="awards">
+        <div id="awards" class="award-container">
             <h2> Awards </h2>
 
-            <table id="awards-table">
+            <table class="awards-table">
                 <caption>Primetime Emmy Awards</caption>
                 <thead>
                     <tr>
@@ -110,48 +115,16 @@
             </table>
         </div>
 
-        <div class="standup-specials">
+        <div id="specials" class="standup-specials">
             <h2>Stand-up Specials &#128516</h2>
             <img class="special-image"
                 src="https://occ-0-2705-1001.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZhwYhq1iVqUsMByzExxszabDvSTUAzlmBxfar9tuCmdJViVjTKWeFmnM2IG75VLxUtAgXU9fR58CsSBUkuAgouMklZk.jpg?r=4b3"
                 alt="Equanimity special">
-            <!-- <img src="https://miro.medium.com/max/2560/0*7eYUxA28rdmK246f.jpg"> -->
 
             <div class="special-image special-image-2">
                 <img src="https://miro.medium.com/max/2560/1*A0Y3Fm7gTsbtjo70Rd-sdg.jpeg" alt="">
             </div>
-            <!-- <img class=""
-                src="https://m.media-amazon.com/images/M/MV5BOWQ2NDZhNGMtOWMwNS00ZWJhLTk2ZGEtY2VkOTY3ZTljNDQ2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
-                alt="stick and stones netflix special"> -->
-
         </div>
-        <div class="flexbox-container">
-            <!--parent below children-->
-            <div class="container-item">A</div>
-            <div class="container-item">B</div>
-            <div class="container-item">C</div>
-            <div class="container-item">D</div>
-            <div class="container-item">E</div>
-            <!-- <div class="container-item">F</div>
-            <div class="container-item">G</div>
-            <div class="container-item">H</div>
-            <div class="container-item">J</div>
-            <div class="container-item">K</div>
-            <div class="container-item">A</div>
-            <div class="container-item">B</div>
-            <div class="container-item">C</div>
-            <div class="container-item">D</div>
-            <div class="container-item">E</div>
-            <div class="container-item">F</div>
-            <div class="container-item">G</div>
-            <div class="container-item">H</div>
-            <div class="container-item">J</div>
-            <div class="container-item">K</div> -->
-
-
-
-        </div>
-
     </main>
 </body>
 
